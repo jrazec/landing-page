@@ -68,12 +68,14 @@ ul {
     font-size: 18px;
     color: #E5E7EB;
 }
-#sign-up-button-one {
-    background-color: lightblue;
-    border: none;
+button {
     width: auto;
     padding: 10px;
     justify-content: center;
+}
+#sign-up-button-one {
+    background-color: lightblue;
+    border: none;
 }
 
 .image img {
@@ -119,3 +121,40 @@ ul {
     font-style: italic;
     max-width: 780px;
 }
+.sign-up {
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal {
+    background-color: #3882F6;
+    display: flex;
+    padding: 10px;
+    color: white;
+    height: 100px;
+    width: 830px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+.left-modal{
+    display: flex;
+    flex-direction: column;
+}
+.modal-head {
+    font-weight: bold;
+}
+#sign-up-button-two {
+    background-color: #3882F6;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    color: white;
+    font-weight: 300;
+
+}
+.div
+
