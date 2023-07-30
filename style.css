@@ -15,26 +15,56 @@ body {
     background-color: #1F2937;
     color: white;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
     padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
     margin: 0px;
 }
 
 .logo {
     font-weight: 900;
     font-size: 20px;
-    flex-shrink: 0;
+    padding: 0;
 }
 
 ul,
-a {
+a{
     text-decoration: none;
     margin: 0;
     padding: 0;
     color: white;
     list-style: none;
-    gap:15px;
-    flex-shrink: 0;
+    gap:50px;
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
 }
 
+.subject {
+    color: white;
+    background-color: #1F2937;
+    height: 320px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
+    gap: 20px;
+    flex-shrink: 1;
+}  
+
+#sign-up-button-one {
+    background-color: lightblue;
+    border: none;
+    width: auto;
+    padding: 10px;
+    justify-content: center;
+}
