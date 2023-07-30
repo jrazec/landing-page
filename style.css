@@ -60,7 +60,14 @@ ul {
     gap: 20px;
     flex-shrink: 1;
 }  
-
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+.sub-title {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 #sign-up-button-one {
     background-color: lightblue;
     border: none;
@@ -82,7 +89,7 @@ ul {
 .info-title {
     color: #1F2937;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 36px;
     padding: 30px;
 }
 .illustration {
@@ -99,4 +106,16 @@ ul {
     text-align: center;
     font-size: 13px;
 }
-
+.quote {
+    display: flex;
+    height: 320px;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-quote {
+    font-size: 36px;
+    font-style: italic;
+    max-width: 780px;
+}
