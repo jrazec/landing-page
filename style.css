@@ -68,3 +68,35 @@ ul {
     padding: 10px;
     justify-content: center;
 }
+
+.image img {
+    width: 150px;
+    height: 150px;
+}
+.info {
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-title {
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 30px;
+}
+.illustration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    justify-content: center;
+    margin: 0px 20px;
+    max-width: 150px;
+} 
+.text {
+    text-align: center;
+    font-size: 13px;
+}
+
